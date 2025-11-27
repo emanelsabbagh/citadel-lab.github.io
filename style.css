@@ -133,6 +133,17 @@ body {
     color: #e5e7eb;
     border: 1px solid rgba(148, 163, 184, 0.35);
 }
+/* Scroll reveal base state */
+.reveal {
+    opacity: 0;
+    transform: translateY(18px);
+}
+
+/* Scroll reveal when visible */
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .section h3 {
     color: var(--green);
