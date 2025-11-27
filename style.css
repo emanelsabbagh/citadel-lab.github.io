@@ -84,6 +84,11 @@ body {
     position: relative;
     overflow: hidden;
 }
+.hero-logo {
+    height: 90px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 12px rgba(127, 209, 174, 0.25));
+}
 
 /* Scroll reveal base state */
 .reveal {
