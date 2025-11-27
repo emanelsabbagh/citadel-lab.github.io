@@ -76,7 +76,7 @@ body {
         radial-gradient(circle at top left, rgba(127, 209, 174, 0.20), transparent 55%),
         radial-gradient(circle at top right, rgba(139, 120, 255, 0.28), transparent 55%),
         linear-gradient(160deg, #050509, #101018, #111827);
-    padding: 110px 24px 70px;
+    padding: 90px 24px 50px;
     color: var(--white);
     border-radius: 0 0 36px 36px;
     box-shadow: 0 22px 50px rgba(0, 0, 0, 0.8);
