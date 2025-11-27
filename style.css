@@ -85,19 +85,23 @@ body {
     overflow: hidden;
 }
 
-/* subtle glow circle behind text */
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    width: 420px;
-    height: 420px;
-    border-radius: 999px;
-    background: radial-gradient(circle, rgba(127, 209, 174, 0.14), transparent 65%);
-    opacity: 0.7;
-    filter: blur(2px);
-    pointer-events: none;
+/* Scroll reveal base state */
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    filter: brightness(0.7);
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s ease,
+        filter 0.9s ease;
+}
+
+/* When revealed (after scrolling into view) */
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: brightness(1);
+
 }
 
 .hero-inner {
@@ -142,9 +146,9 @@ body {
 
 /* Hover lift + glow (applies once revealed) */
 .section.reveal-visible:hover {
-    transform: translateY(-8px);
+     transform: translateY(-6px);
     box-shadow: 0 26px 60px rgba(0, 0, 0, 0.95);
-    border-color: rgba(127, 209, 174, 0.75); /* soft green accent */
+    border-color: rgba(127, 209, 174, 0.55);
     background: rgba(15, 23, 42, 0.9);
 }
 /* Scroll reveal base state */
