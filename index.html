@@ -5,112 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CITADEL Lab</title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: white;
+            font-family: 'Inter', sans-serif;
+            background: #f7f9fc;
             color: #1e2a40;
         }
 
-        /* Header */
-        .header {
-            background: linear-gradient(135deg, #6C63FF, #5DD39E);
-            padding: 60px 40px;
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #6C63FF, #7FD1AE);
+            padding: 120px 30px;
             color: white;
             text-align: center;
+            border-radius: 0 0 30px 30px;
         }
 
-        .header h1 {
-            font-size: 48px;
+        .hero h1 {
+            font-size: 56px;
             margin: 0;
+            font-weight: 700;
         }
 
-        .header h2 {
+        .hero h2 {
             font-size: 22px;
             opacity: 0.9;
             margin-top: 10px;
+            font-weight: 300;
         }
 
-        /* Sections */
+        /* SECTIONS */
         .section {
+            background: white;
             padding: 50px 10%;
-            max-width: 1200px;
-            margin: auto;
+            margin: 40px auto;
+            max-width: 1000px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 16px rgba(0,0,0,0.08);
         }
 
         .section h3 {
             color: #6C63FF;
             font-size: 28px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
-        .section p {
+        .section p, .section li {
             font-size: 18px;
             line-height: 1.7;
         }
 
-        /* Footer */
+        /* FOOTER */
         .footer {
             background: #1e2a40;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 25px;
             margin-top: 40px;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="header">
+    <!-- HERO BANNER -->
+    <div class="hero">
         <h1>CITADEL Lab</h1>
         <h2>Computational Immunology & Transplant AI Data Engineering Lab</h2>
     </div>
 
+    <!-- ABOUT SECTION -->
     <div class="section">
         <h3>About the Lab</h3>
         <p>
             CITADEL Lab is dedicated to advancing precision transplantation through computational immunology,
-            calibrated machine learning models, causal inference, and immune-driven data engineering.
-            Our vision is to build a global framework for individualized transplant decision-making.
+            calibrated machine learning, causal inference, and immune-driven data engineering.
+            Our vision is to build a global architecture for individualized transplant decision-making.
         </p>
     </div>
 
+    <!-- SCIENTIFIC FOCUS -->
     <div class="section">
         <h3>Scientific Focus</h3>
-        <p>
-            • Computational Immunology and Immune Reconstruction Modeling<br>
-            • AI for Transplant Outcomes (AML, ALL, GVHD, Graft Failure)<br>
-            • Causal Inference for Conditioning & GVHD Prophylaxis<br>
-            • Calibrated ML (RSF, Isotonic Regression, SHAP Interpretability)<br>
-            • Data Engineering for Donor Registries and Transplant Pipelines<br>
-            • Translational Tools for Clinical Decision Support
-        </p>
+        <ul>
+            <li>Computational Immunology & Immune Reconstruction Modeling</li>
+            <li>AI for Transplant Outcomes (AML, ALL, GVHD, Graft Failure)</li>
+            <li>Causal Inference for Conditioning & GVHD Prophylaxis</li>
+            <li>Model Calibration (RSF, Isotonic Regression, SHAP)</li>
+            <li>Data Engineering for Donor Registries & Transplant Pipelines</li>
+            <li>Translational Clinical Decision Support Tools</li>
+        </ul>
     </div>
 
+    <!-- FLAGSHIP PROJECTS -->
     <div class="section">
         <h3>Flagship Projects</h3>
-        <p>
-            • Pediatric AML/ALL Calibrated Survival Models<br>
-            • DRI + Machine Learning Fusion Model<br>
-            • National Donor Registry Data Architecture<br>
-            • Immune-AI for CMV & GVHD Prediction<br>
-            • SCALA Framework for Transplant Decision Balance<br>
-            • Causal Models for MMUD & PTCy Strategies
-        </p>
+        <ul>
+            <li>Pediatric AML/ALL Calibrated Survival Models</li>
+            <li>DRI + Machine Learning Fusion Architecture</li>
+            <li>National Donor Registry Data Engineering</li>
+            <li>Immune-AI for CMV & GVHD</li>
+            <li>SCALA Framework for Transplant Decision Balance</li>
+            <li>Causal Models for MMUD & PTCy Optimization</li>
+        </ul>
     </div>
 
+    <!-- CONTACT -->
     <div class="section">
         <h3>Contact</h3>
         <p>
-            For collaborations, speaking, or research inquiries:<br>
             <b>Eman Elsabbagh, MD</b><br>
-            Founder & Director, CITADEL Lab<br>
-            Email: your-email-here
+            Founder & Director, CITADEL Lab<br><br>
+            Email: <i>your-email-here</i>
         </p>
     </div>
 
+    <!-- FOOTER -->
     <div class="footer">
         © 2025 CITADEL Lab — Eman Elsabbagh. All Rights Reserved.
     </div>
