@@ -85,9 +85,10 @@ body {
     overflow: hidden;
 }
 .hero-logo {
-    height: 90px;
-    margin-bottom: 20px;
-    filter: drop-shadow(0 0 12px rgba(127, 209, 174, 0.25));
+    height: 150px;          /* make it bigger; change to 170px if you want even larger */
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.7);
 }
 
 /* Scroll reveal base state */
