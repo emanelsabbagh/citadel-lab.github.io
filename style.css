@@ -132,6 +132,20 @@ body {
     -webkit-backdrop-filter: blur(18px);
     color: #e5e7eb;
     border: 1px solid rgba(148, 163, 184, 0.35);
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease,
+        opacity 0.7s ease;
+}
+
+/* Hover lift + glow (applies once revealed) */
+.section.reveal-visible:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 26px 60px rgba(0, 0, 0, 0.95);
+    border-color: rgba(127, 209, 174, 0.55); /* soft green accent */
+    background: rgba(15, 23, 42, 0.9);
 }
 /* Scroll reveal base state */
 .reveal {
