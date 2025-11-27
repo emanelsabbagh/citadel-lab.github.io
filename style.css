@@ -142,15 +142,18 @@ body {
 
 /* Hover lift + glow (applies once revealed) */
 .section.reveal-visible:hover {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
     box-shadow: 0 26px 60px rgba(0, 0, 0, 0.95);
-    border-color: rgba(127, 209, 174, 0.55); /* soft green accent */
+    border-color: rgba(127, 209, 174, 0.75); /* soft green accent */
     background: rgba(15, 23, 42, 0.9);
 }
 /* Scroll reveal base state */
 .reveal {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(40px);
+    transition:
+        opacity 0.8s ease-out,
+        transform 0.8s ease-out;
 }
 
 /* Scroll reveal when visible */
