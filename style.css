@@ -97,12 +97,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;  /* <-- aligns left */
-    gap: 50px;  /* slightly bigger logo/text spacing */
+    gap: 70px;  /* slightly bigger logo/text spacing */
 }
 
 /* Horizontal logo styling */
 .hero-logo-horizontal {
-    height: 120px;     /* tweak 100–130px if you want */
+    height: 140px;     /* tweak 100–130px if you want */
     border-radius: 16px;
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.6);
 }
@@ -204,15 +204,15 @@ body {
     }
 
     .hero-logo-horizontal {
-        height: 140px;
+        height: 160px;
     }
 
     .hero-text h1 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .hero-text h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .nav {
